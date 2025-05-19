@@ -59,8 +59,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html"> About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="departments.html">Departments</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="departmentsDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Departments
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="departmentsDropdown">
+                  <li><a class="dropdown-item" href="cardiology.html">Cardiology</a></li>
+                  <li><a class="dropdown-item" href="nephrology.html">Neurology</a></li>
+                  <li><a class="dropdown-item" href="dermatology.html">Dermatology</a></li>
+                  <li><a class="dropdown-item" href="gastroenterology.html">Gastroenterology</a></li>
+                  <li><a class="dropdown-item" href="physiotherapy.html">physiotherapy</a></li>
+                  <li><a class="dropdown-item" href="ent.html">ENT</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="doctors.html">Doctors</a>
@@ -177,14 +188,18 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3 footer_col">
-          <div class="footer_detail">
-            <h4>
-              About
-            </h4>
-            <p>
-              Beatae provident nobis mollitia magnam voluptatum, unde dicta facilis minima veniam corporis laudantium alias tenetur eveniet illum reprehenderit fugit a delectus officiis blanditiis ea.
-            </p>
+          <h4>Quick links</h4>
+
+          <div class="footer_links">
+
+            <a class="dropdown-item" href="cardiology.html">Cardiology</a>
+            <a class="dropdown-item" href="nephrology.html">Neurology</a>
+            <a class="dropdown-item" href="departments.html">Dermatology</a>
+            <a class="dropdown-item" href="gastroenterology.html">Gastroenterology</a>
+            <a class="dropdown-item" href="physiotherapy.html">physiotherapy</a>
+            <a class="dropdown-item" href="ent.html">ENT</a>
           </div>
+
         </div>
         <div class="col-md-6 col-lg-2 mx-auto footer_col">
           <div class="footer_link_box">
@@ -192,7 +207,7 @@
               Links
             </h4>
             <div class="footer_links">
-              <a class="" href="index.html">
+              <a class="active" href="index.html">
                 Home
               </a>
               <a class="" href="about.html">
@@ -204,7 +219,7 @@
               <a class="" href="doctors.html">
                 Doctors
               </a>
-              <a class="active" href="contact.html">
+              <a class="" href="contact.html">
                 Contact Us
               </a>
             </div>
@@ -226,9 +241,10 @@
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
           <a href="https://html.design/">Free Html Templates<br><br></a>
-            &copy; <span id="displayYear"></span> Distributed By
-            <a href="https://themewagon.com/">ThemeWagon</a>
+          &copy; <span id="displayYear"></span> Distributed By
+          <a href="https://themewagon.com/">ThemeWagon</a>
         </p>
+
       </div>
     </div>
   </footer>

@@ -905,3 +905,66 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+@media (max-width:768px) {
+
+  .card_section {
+      margin-bottom: 20px !important;
+
+  }
+}
+.card_section h5{
+  padding-left: 30px;
+}
+
+
+.card_section p {
+padding: 10px 20px 20px 20px ;
+
+}
+.card_section  img {
+ padding: 20px ; 
+
+}
+.card:hover {
+  transform: translateY(-10px) ;
+}
+
+.treatment_section{
+background: #dee8e9;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+/* .card_section img:hover{
+  transform: translateX(-10px);
+} */
+.card{
+  box-shadow: 1px 3px 6px  rgb(53, 51, 51);
+}
+
+.physio_section{
+  margin: 30px;
+}
+
+
+
+
+  @media (min-width: 992px) {
+
+    .nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  }
+
+
+/* .footer_links li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+} */
+

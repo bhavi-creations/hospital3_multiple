@@ -22,7 +22,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
@@ -37,11 +38,6 @@
 <body class="sub_page">
 
   <div class="hero_area">
-
-    <div class="hero_bg_box">
-      <img src="images/hero-bg.png" alt="">
-    </div>
-
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
@@ -52,7 +48,8 @@
             </span>
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
 
@@ -61,11 +58,22 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
-              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="departments.html">Departments <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="about.html"> About <span class="sr-only">(current)</span> </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="departmentsDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Departments
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="departmentsDropdown">
+                  <li><a class="dropdown-item" href="cardiology.html">Cardiology</a></li>
+                  <li><a class="dropdown-item" href="nephrology.html">Neurology</a></li>
+                  <li><a class="dropdown-item" href="dermatology.html">Dermatology</a></li>
+                  <li><a class="dropdown-item" href="gastroenterology.html">Gastroenterology</a></li>
+                  <li><a class="dropdown-item" href="physiotherapy.html">physiotherapy</a></li>
+                  <li><a class="dropdown-item" href="ent.html">ENT</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="doctors.html">Doctors</a>
@@ -85,7 +93,6 @@
     </header>
     <!-- end header section -->
   </div>
-
   <!-- department section -->
 
   <section class="department_section layout_padding">
@@ -96,76 +103,148 @@
             Our Departments
           </h2>
           <p>
-            Asperiores sunt consectetur impedit nulla molestiae delectus repellat laborum dolores doloremque accusantium
-          </p>
+            Our Specialized Medical Departments </p>
         </div>
         <div class="row">
           <div class="col-md-3">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/s1.png" alt="">
+            <a href="cardiology.html">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Cardiology
+                  </h5>
+                  <p>
+                    We provide advanced heart care services for the prevention, diagnosis, and treatment of
+                    cardiovascular
+                    conditions </p>
+                </div>
+                <!-- <div class="btn-box">
+                <a href="departments.html">
+                     Read more
+                </a>
+              </div> -->
               </div>
-              <div class="detail-box">
-                <h5>
-                  Cardiology
-                </h5>
-                <p>
-                  fact that a reader will be distracted by the readable page when looking at its layout.
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/s2.png" alt="">
+            <a href="physiotherapy.html">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Physiotherapy
+                  </h5>
+                  <p>
+                    Helps restore movement and function for patients affected by injury, illness, or disability using
+                    physical methods </p>
+                </div>
+                <!-- <div class="btn-box">
+                <a href="departments.html">
+                     Read more
+                </a>
+              </div> -->
               </div>
-              <div class="detail-box">
-                <h5>
-                  Diagnosis
-                </h5>
-                <p>
-                  fact that a reader will be distracted by the readable page when looking at its layout.
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/s3.png" alt="">
+            <a href="dermatology.html">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Dermatology
+                  </h5>
+                  <p>
+                    Provides diagnosis and treatment for all skin, hair, and nail conditions with clinical and cosmetic
+                    solutions </p>
+                </div>
+                <!-- <div class="btn-box">
+                <a href="departments.html">
+                     Read more
+                </a>
+              </div> -->
               </div>
-              <div class="detail-box">
-                <h5>
-                  Surgery
-                </h5>
-                <p>
-                  fact that a reader will be distracted by the readable page when looking at its layout.
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/s4.png" alt="">
+
+            <a href="ent.html">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    ENT (Ear, Nose & Throat)
+                  </h5>
+                  <p>
+                    Specializes in treating infections, hearing problems, sinus issues, and throat-related disorders
+                  </p>
+                </div>
+                <!-- <div class="btn-box">
+                <a href="departments.html">
+                     Read more
+                </a>
+              </div> -->
               </div>
-              <div class="detail-box">
-                <h5>
-                  First Aid
-                </h5>
-                <p>
-                  fact that a reader will be distracted by the readable page when looking at its layout.
-                </p>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="gastroenterology.html">
+              <div class="box ">
+                <div class="img-box">
+                  <img src="images/s1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Gastroenterology
+                  </h5>
+                  <p>
+                    Focuses on digestive system health, treating conditions like ulcers, acidity, and liver problems
+                  </p>
+                </div>
+                <!-- <div class="btn-box">
+                <a href="departments.html">
+                     Read more
+                </a>
+              </div> -->
               </div>
-            </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="nephrology.html">
+              <div class="box ">
+
+
+                <div class="img-box">
+                  <img src="images/s1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Nephrology
+                  </h5>
+                  <p>
+                    Covers kidney health and treats conditions such as kidney stones, infections, and chronic kidney
+                    disease </p>
+                </div>
+
+
+              </div>
+            </a>
           </div>
         </div>
-        <div class="btn-box">
-          <a href="">
-            View All
+        <!-- <div class="btn-box">
+          <a href="departments.html">
+               Read more
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -218,14 +297,18 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3 footer_col">
-          <div class="footer_detail">
-            <h4>
-              About
-            </h4>
-            <p>
-              Beatae provident nobis mollitia magnam voluptatum, unde dicta facilis minima veniam corporis laudantium alias tenetur eveniet illum reprehenderit fugit a delectus officiis blanditiis ea.
-            </p>
+          <h4>Quick links</h4>
+
+          <div class="footer_links">
+
+            <a class="dropdown-item" href="cardiology.html">Cardiology</a>
+            <a class="dropdown-item" href="nephrology.html">Neurology</a>
+            <a class="dropdown-item" href="departments.html">Dermatology</a>
+            <a class="dropdown-item" href="gastroenterology.html">Gastroenterology</a>
+            <a class="dropdown-item" href="physiotherapy.html">physiotherapy</a>
+            <a class="dropdown-item" href="ent.html">ENT</a>
           </div>
+
         </div>
         <div class="col-md-6 col-lg-2 mx-auto footer_col">
           <div class="footer_link_box">
@@ -233,13 +316,13 @@
               Links
             </h4>
             <div class="footer_links">
-              <a class="" href="index.html">
+              <a class="active" href="index.html">
                 Home
               </a>
               <a class="" href="about.html">
                 About
               </a>
-              <a class="active" href="departments.html">
+              <a class="" href="departments.html">
                 Departments
               </a>
               <a class="" href="doctors.html">
@@ -267,9 +350,10 @@
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
           <a href="https://html.design/">Free Html Templates<br><br></a>
-            &copy; <span id="displayYear"></span> Distributed By
-            <a href="https://themewagon.com/">ThemeWagon</a>
+          &copy; <span id="displayYear"></span> Distributed By
+          <a href="https://themewagon.com/">ThemeWagon</a>
         </p>
+
       </div>
     </div>
   </footer>
@@ -278,8 +362,9 @@
   <!-- jQery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
   <!-- bootstrap js -->
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <!-- owl slider -->
